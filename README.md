@@ -1,26 +1,30 @@
 # Unity-Bootcamp
-Oyun ve Uygulama Atölyesi Bootcamp
 
-Team Bootstrap
+Oyun ve Uygulama Akademisi Bootcamp
+
+## Team Bootstrap
 Grup 31
 
-Projeyle İlgili Bilgiler
+# Projeyle İlgili Bilgiler
 
-Takım Elemanları
+### Takım Elemanları
 +Kerem Tutar
 +Kevser Çalık
 +Seda Dede
 +Utku Erdoğan
 
-Proje İsmi
+### Proje İsmi
 --Game--
 
-Proje Açıklaması
+### Proje Açıklaması
 Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce kadar zorunlu hala gelen kodlama eğitimini oyunlarla öğretebilmek.
 
-Ürünün Özellikleri
+### Ürünün Özellikleri
 -Eğitici olması
 -Bölümlerden oluşması
 
-Hedef Kitle
+### Hedef Kitle
 6-15 yaş arası çocuklar 
+
+### Product Backlog URL
+
