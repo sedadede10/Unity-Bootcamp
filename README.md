@@ -8,10 +8,10 @@ Grup 31
 # Projeyle İlgili Bilgiler
 
 ### Takım Elemanları
-+Kerem Tutar
-+Kevser Çalık
-+Seda Dede
-+Utku Erdoğan
++ Kerem Tutar
++ Kevser Çalık
++ Seda Dede
++ Utku Erdoğan
 
 ### Proje İsmi
 --Game--
