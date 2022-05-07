@@ -28,7 +28,7 @@ Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce 
 
 ### Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Miro Backlog Board](https://miro.com/app/board/uXjVO2lrk-4=/?share_link_id=891203677780) 
 
 ---
 
