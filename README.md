@@ -8,10 +8,10 @@ Grup 31
 # Projeyle İlgili Bilgiler
 
 ### Takım Elemanları
-+ Kerem Tutar
-+ Kevser Çalık
-+ Seda Dede
-+ Utku Erdoğan
++ Kerem Tutar:Developer
++ Kevser Çalık:Grafic Designer/Product Owner
++ Seda Dede:Grafic Designer/Scrum Master
++ Utku Erdoğan:Developer
 
 ### Proje İsmi
 --Game--
