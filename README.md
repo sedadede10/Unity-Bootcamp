@@ -22,6 +22,7 @@ Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce 
 ### Ürünün Özellikleri
 - Eğitici olması
 - Bölümlerden oluşması
+- 2D ve pixel art olması
 
 ### Hedef Kitle
 6-15 yaş arası çocuklar 
