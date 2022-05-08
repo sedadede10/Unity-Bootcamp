@@ -8,10 +8,10 @@ Grup 31
 # Projeyle İlgili Bilgiler
 
 ### Takım Elemanları
-+ Kerem Tutar:Developer
-+ Kevser Çalık:Grafic Designer/Product Owner
-+ Seda Dede:Grafic Designer/Scrum Master
-+ Utku Erdoğan:Developer
++ Kerem Tutar
++ Kevser Çalık
++ Seda Dede
++ Utku Erdoğan
 
 ### Proje İsmi
 --Game--
@@ -20,8 +20,8 @@ Grup 31
 Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce kadar zorunlu hala gelen kodlama eğitimini oyunlarla öğretebilmek.
 
 ### Ürünün Özellikleri
--Eğitici olması
--Bölümlerden oluşması
+- Eğitici olması
+- Bölümlerden oluşması
 
 ### Hedef Kitle
 6-15 yaş arası çocuklar 
@@ -47,14 +47,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8646956/Daily.Scrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+![Backlog 1](https://user-images.githubusercontent.com/79168222/167309363-0db5d000-39dd-4a2c-8f38-369435e6f581.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://user-images.githubusercontent.com/79168222/167294921-6af956e8-ed51-47a4-96ff-0d0391df8cf2.png)
 
   ![Screenshot 2](https://user-images.githubusercontent.com/79168222/167295622-50cd07bf-295f-43ed-880a-6832527911ca.png)
+  
+  ![Screenshot 3](https://user-images.githubusercontent.com/79168222/167309485-d9c056aa-86d3-43d2-b1a8-f0d0cb5b834c.png)
+  
 
 - **Sprint Review**: 
 Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
