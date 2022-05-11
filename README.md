@@ -45,7 +45,7 @@ Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8646956/Daily.Scrum.docx)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8672395/Daily.Scrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://user-images.githubusercontent.com/79168222/167309363-0db5d000-39dd-4a2c-8f38-369435e6f581.png)
