@@ -2,7 +2,7 @@
 
 Oyun ve Uygulama Akademisi Bootcamp
 
-## Team Bootstrap
+## Team Bootcamp
 Grup 31
 
 # Projeyle İlgili Bilgiler
