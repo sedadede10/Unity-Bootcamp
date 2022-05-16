@@ -7,29 +7,35 @@ public class PlayerController : MonoBehaviour
     private bool isMoving;
     private Vector3 originalPos, targetPos;
     private float timeToMove = 0.2f;//gridler arasý geçiþ zamaný
-   
+    public GirdiyiAlma inputgirdisi;
+    int i;
+    bool kontrol = true;
 
+    void Start()
+    {
+           
+    }
     void Update()
     {
-        if(Input.GetKey(KeyCode.W)&& !isMoving)
+        if(Input.GetKeyDown(KeyCode.W)&& !isMoving)
         {
-            StartCoroutine(MovePlayer(Vector3.up));
+            StartCoroutine(ileriGitme(inputgirdisi.TekrarSayisi_ileri));   
         }
         if (Input.GetKey(KeyCode.A) && !isMoving)
         {
-            StartCoroutine(MovePlayer(Vector3.left));
+            StartCoroutine(SolaGitme(inputgirdisi.TekrarSayisi_sola));
         }
         if (Input.GetKey(KeyCode.D) && !isMoving)
         {
-            StartCoroutine(MovePlayer(Vector3.right));
+            StartCoroutine(SagaGitme(inputgirdisi.TekrarSayisi_saga));
         }
         if (Input.GetKey(KeyCode.S) && !isMoving)
         {
-            StartCoroutine(MovePlayer(Vector3.down));
+            StartCoroutine(AsagiGitme(inputgirdisi.TekrarSayisi_asagi));
         }
     }
 
-    private IEnumerator MovePlayer(Vector3 direction)//karakterin grid tabanlý hareket etmesi
+    public IEnumerator MovePlayer(Vector3 direction)//karakterin grid tabanlý hareket etmesi
     {
         isMoving = true;
 
@@ -48,5 +54,77 @@ public class PlayerController : MonoBehaviour
         transform.position = targetPos;
 
         isMoving = false;
+        
+    }
+    public IEnumerator ileriGitme(int tekrar)//inputtan girilen girdi sayisi kadar karakteri ileriye hareket ettrime
+    {
+        while (kontrol)
+        {
+            
+            StartCoroutine(MovePlayer(Vector3.up));
+            yield return new WaitForSeconds(0.5f);
+            i++;
+            if(i==tekrar)
+            {
+                kontrol = false;
+            }
+        }
+        i = 0;
+        kontrol = true;
+        yield return null;
+    }
+
+    public IEnumerator SagaGitme(int tekrar)
+    {
+        while (kontrol)
+        {
+
+            StartCoroutine(MovePlayer(Vector3.right));
+            yield return new WaitForSeconds(0.5f);
+            i++;
+            if (i == tekrar)
+            {
+                kontrol = false;
+            }
+        }
+        i = 0;
+        kontrol = true;
+        yield return null;
+    }
+
+    public IEnumerator SolaGitme(int tekrar)
+    {
+        while (kontrol)
+        {
+
+            StartCoroutine(MovePlayer(Vector3.left));
+            yield return new WaitForSeconds(0.5f);
+            i++;
+            if (i == tekrar)
+            {
+                kontrol = false;
+            }
+        }
+        i = 0;
+        kontrol = true;
+        yield return null;
+    }
+
+    public IEnumerator AsagiGitme(int tekrar)
+    {
+        while (kontrol)
+        {
+
+            StartCoroutine(MovePlayer(Vector3.down));
+            yield return new WaitForSeconds(0.5f);
+            i++;
+            if (i == tekrar)
+            {
+                kontrol = false;
+            }
+        }
+        i = 0;
+        kontrol = true;
+        yield return null;
     }
 }
