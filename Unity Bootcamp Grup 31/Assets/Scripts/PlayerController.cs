@@ -10,28 +10,17 @@ public class PlayerController : MonoBehaviour
     public GirdiyiAlma inputgirdisi;
     int i;
     bool kontrol = true;
+    int durum = 0;
 
     void Start()
     {
            
     }
     void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.W)&& !isMoving)
+    {        
+        if(Input.GetKeyDown(KeyCode.F)&& !isMoving)
         {
-            StartCoroutine(ileriGitme(inputgirdisi.TekrarSayisi_ileri));   
-        }
-        if (Input.GetKey(KeyCode.A) && !isMoving)
-        {
-            StartCoroutine(SolaGitme(inputgirdisi.TekrarSayisi_sola));
-        }
-        if (Input.GetKey(KeyCode.D) && !isMoving)
-        {
-            StartCoroutine(SagaGitme(inputgirdisi.TekrarSayisi_saga));
-        }
-        if (Input.GetKey(KeyCode.S) && !isMoving)
-        {
-            StartCoroutine(AsagiGitme(inputgirdisi.TekrarSayisi_asagi));
+            StartCoroutine(KodSiralama());
         }
     }
 
@@ -67,11 +56,13 @@ public class PlayerController : MonoBehaviour
             if(i==tekrar)
             {
                 kontrol = false;
+                
             }
         }
         i = 0;
         kontrol = true;
-        yield return null;
+        durum = durum + 1;//bir sonraki duruma gecis yapmasi icin durum bir arttirilir
+        
     }
 
     public IEnumerator SagaGitme(int tekrar)
@@ -85,11 +76,13 @@ public class PlayerController : MonoBehaviour
             if (i == tekrar)
             {
                 kontrol = false;
+                
             }
         }
         i = 0;
         kontrol = true;
-        yield return null;
+        durum = durum + 1;
+        
     }
 
     public IEnumerator SolaGitme(int tekrar)
@@ -107,7 +100,8 @@ public class PlayerController : MonoBehaviour
         }
         i = 0;
         kontrol = true;
-        yield return null;
+        durum = durum + 1;
+        
     }
 
     public IEnumerator AsagiGitme(int tekrar)
@@ -125,6 +119,38 @@ public class PlayerController : MonoBehaviour
         }
         i = 0;
         kontrol = true;
+        durum = durum + 1;
+        
+    }
+
+    public IEnumerator KodSiralama()
+    {
+        if(durum==0)
+        {
+            StartCoroutine(ileriGitme(inputgirdisi.TekrarSayisi_ileri));                       
+        }
+        
+        yield return new WaitUntil(() => durum ==1);
+        
+        if (durum==1)
+        {
+            StartCoroutine(SolaGitme(inputgirdisi.TekrarSayisi_sola));                        
+        }
+
+        yield return new WaitUntil(() => durum == 2);
+
+        if (durum==2)
+        {
+            StartCoroutine(SagaGitme(inputgirdisi.TekrarSayisi_saga));
+        }
+
+        yield return new WaitUntil(() => durum == 3);
+        
+        if (durum==3)
+        {
+            StartCoroutine(AsagiGitme(inputgirdisi.TekrarSayisi_asagi));
+        }
         yield return null;
     }
+
 }
