@@ -96,7 +96,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   
 
 - **Sprint Review**: 
-Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplantılarla kararlaştırarak devam edeceklerdir.Oyuna yeni eklenilen bölümlerle ilgili ortak çalışma yürütülecek.
+Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplantılarla kararlaştırarak devam edeceklerdir.Oyuna yeni eklenilen bölümlerle ilgili ortak çalışma yürütülecek.2D isometric yerine 2D kuşbakışı-plansal olarak devam etmeye karar verilmiştir.
 
 - **Sprint Retrospective:**
   - Oyunda eklenilmesi düşünülen yeni kısımlarla ilgili kodlama araştırılması yapılacak
