@@ -45,7 +45,7 @@ Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8672395/Daily.Scrum.docx)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8672395/Daily.Scrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://user-images.githubusercontent.com/79168222/167309363-0db5d000-39dd-4a2c-8f38-369435e6f581.png)
@@ -83,27 +83,25 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8749827/Daily.Scrum.docx)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8750330/Daily.Scrum.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://user-images.githubusercontent.com/79168222/167309363-0db5d000-39dd-4a2c-8f38-369435e6f581.png)
+![Backlog 1](https://user-images.githubusercontent.com/79168222/169717027-bda94ee3-f48a-4daf-83f5-f4b9b6b3cdc7.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - 
-  ![Screenshot 1](https://user-images.githubusercontent.com/79168222/169706575-c054ed07-490e-4555-bff1-7be83f18a6a1.png)
+  ![Screenshot 1](https://user-images.githubusercontent.com/79168222/169716165-a396633a-2079-4f18-a40a-f47e88d34d38.JPG)
 
   ![Screenshot 2](https://user-images.githubusercontent.com/79168222/169706588-8a34eb56-620b-44a6-b19e-1b6ec18d53f9.png)
   
-  ![Screenshot 3](https://user-images.githubusercontent.com/79168222/167309485-d9c056aa-86d3-43d2-b1a8-f0d0cb5b834c.png)
-  
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplantılarla kararlaştırarak devam edeceklerdir.Oyuna yeni eklenilen bölümlerle ilgili ortak çalışma yürütülecek.
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Oyunda eklenilmesi düşünülen yeni kısımlarla ilgili kodlama araştırılması yapılacak
+  - Developer ve tasarımcılarla birbirini bilgilendirerek devam etmeli
+  - Daha detaylı bir zaman yönetimi yapılmalı
 
 -**Diğer Notlar**:
-- N/A
+- Bölüm sırasında kodlama öğretirken bölüm sonunda bazı kısa animasyonlarla küresel sorunlar hakkında öğretici bilgilendirmeler yapılabilir.Bunun üzerine gelecek sprintte çalışılacaktır.
