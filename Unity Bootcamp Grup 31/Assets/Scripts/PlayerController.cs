@@ -14,16 +14,18 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-           
+        
     }
     void Update()
-    {        
-        if(Input.GetKeyDown(KeyCode.F)&& !isMoving)
+    {
+        if (Input.GetKeyDown(KeyCode.F) && !isMoving)
         {
             StartCoroutine(KodSiralama());
         }
-    }
 
+    }
+    
+  
     public IEnumerator MovePlayer(Vector3 direction)//karakterin grid tabanlý hareket etmesi
     {
         isMoving = true;
@@ -49,11 +51,11 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
-            
-            StartCoroutine(MovePlayer(Vector3.up));
+            if (i < tekrar)
+                StartCoroutine(MovePlayer(Vector3.up));
             yield return new WaitForSeconds(0.5f);
             i++;
-            if(i==tekrar)
+            if(i>=tekrar)
             {
                 kontrol = false;
                 
@@ -69,11 +71,11 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
-
-            StartCoroutine(MovePlayer(Vector3.right));
+            if (i < tekrar)
+                StartCoroutine(MovePlayer(Vector3.right));           
             yield return new WaitForSeconds(0.5f);
             i++;
-            if (i == tekrar)
+            if (i >= tekrar)
             {
                 kontrol = false;
                 
@@ -89,11 +91,11 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
-
-            StartCoroutine(MovePlayer(Vector3.left));
+            if (i < tekrar)
+                StartCoroutine(MovePlayer(Vector3.left));
             yield return new WaitForSeconds(0.5f);
             i++;
-            if (i == tekrar)
+            if (i >= tekrar)
             {
                 kontrol = false;
             }
@@ -108,18 +110,18 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
-
-            StartCoroutine(MovePlayer(Vector3.down));
+            if (i < tekrar)
+                StartCoroutine(MovePlayer(Vector3.down));
             yield return new WaitForSeconds(0.5f);
             i++;
-            if (i == tekrar)
+            if (i >= tekrar)
             {
                 kontrol = false;
             }
         }
         i = 0;
         kontrol = true;
-        durum = durum + 1;
+        durum = 0;
         
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class GirdiyiAlma : MonoBehaviour
+public class GirdiyiAlma : PlayerController
 {
     public InputField Girdi_ileri;//input field icin sabit olusturuldu
     public InputField Girdi_saga;
@@ -13,7 +13,8 @@ public class GirdiyiAlma : MonoBehaviour
     public int TekrarSayisi_saga;
     public int TekrarSayisi_sola;
     public int TekrarSayisi_asagi;
-   
+
+    public PlayerController player_controller;
     void Start()
     {
         
@@ -24,9 +25,12 @@ public class GirdiyiAlma : MonoBehaviour
     {
         
     }
+
+
     public void ÝleriGirdiyiSabiteEsitleme()
     {
         TekrarSayisi_ileri = int.Parse(Girdi_ileri.text);//input field içerisindeki girdiyi text formatindan int formatina donusturup TekrarSayisi sabitine esitlendi
+        
     }
     public void SagaGirdiyiSabiteEsitleme()
     {
