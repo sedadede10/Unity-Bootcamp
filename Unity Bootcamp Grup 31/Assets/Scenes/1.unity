@@ -803,10 +803,10 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
@@ -4111,6 +4111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: arrow
       objectReference: {fileID: 0}
+    - target: {fileID: 1919797400016661648, guid: b6e399b86de774846a053f7e06b32f8c,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5228831910594200657, guid: b6e399b86de774846a053f7e06b32f8c,
         type: 3}
       propertyPath: m_RootOrder
@@ -4175,12 +4180,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3944752469249862976, guid: 9d2a05c0f4197d5419d0753b29c14623,
-        type: 3}
-      propertyPath: ok
-      value: 
-      objectReference: {fileID: 1467840361042549658, guid: b6e399b86de774846a053f7e06b32f8c,
-        type: 3}
     - target: {fileID: 3944752469249862977, guid: 9d2a05c0f4197d5419d0753b29c14623,
         type: 3}
       propertyPath: m_Name
@@ -4240,11 +4239,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3944752469249862979, guid: 9d2a05c0f4197d5419d0753b29c14623,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3944752469249863005, guid: 9d2a05c0f4197d5419d0753b29c14623,
         type: 3}
