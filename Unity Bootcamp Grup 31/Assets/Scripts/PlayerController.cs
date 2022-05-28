@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     bool kontrol = true;
     int durum = 0;
     public Animator animator;
+    public GameObject ok;
     void Start()
     {
         
@@ -89,7 +90,26 @@ public class PlayerController : MonoBehaviour
         durum = durum + 1;
         animator.SetFloat("Side", 0f);
     }
-
+    public IEnumerator Bullet(int tekrar)
+    {
+        while (kontrol)
+        {
+            animator.SetFloat("Attack", 2f);
+            if (i < tekrar)
+                
+            yield return new WaitForSeconds(1f);
+            Instantiate(ok, transform.position, Quaternion.Euler(0f, 0f, 90f));
+            i++;
+            if (i >= tekrar)
+            {
+                kontrol = false;
+            }
+        }
+        i = 0;
+        kontrol = true;
+        durum = durum+1;
+        animator.SetFloat("Attack", 0f);
+    }
     public IEnumerator SolaGitme(int tekrar)
     {
         while (kontrol)
@@ -127,10 +147,11 @@ public class PlayerController : MonoBehaviour
         }
         i = 0;
         kontrol = true;
-        durum = 0;
+        durum = durum+1;
         
     }
 
+    
     public IEnumerator KodSiralama()
     {
         if(durum==0)
@@ -156,10 +177,15 @@ public class PlayerController : MonoBehaviour
         
         if (durum==3)
         {
+            StartCoroutine(Bullet(inputgirdisi.okSayisi));
+        }
+        
+        yield return new WaitUntil(() => durum == 4);
+
+        if(durum==4)
+        {
             StartCoroutine(AsagiGitme(inputgirdisi.TekrarSayisi_asagi));
         }
-        yield return null;
-        
     }
 
 }
