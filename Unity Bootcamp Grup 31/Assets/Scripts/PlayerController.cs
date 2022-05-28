@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Transform Yon;
     private bool isMoving;
     private Vector3 originalPos, targetPos;
     private float timeToMove = 0.2f;//gridler arasý geçiþ zamaný
@@ -11,7 +12,7 @@ public class PlayerController : MonoBehaviour
     int i;
     bool kontrol = true;
     int durum = 0;
-
+    public Animator animator;
     void Start()
     {
         
@@ -51,6 +52,7 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
+            animator.SetBool("Front", false);
             if (i < tekrar)
                 StartCoroutine(MovePlayer(Vector3.up));
             yield return new WaitForSeconds(0.5f);
@@ -71,6 +73,7 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
+            animator.SetFloat("Side", 2f);
             if (i < tekrar)
                 StartCoroutine(MovePlayer(Vector3.right));           
             yield return new WaitForSeconds(0.5f);
@@ -84,13 +87,15 @@ public class PlayerController : MonoBehaviour
         i = 0;
         kontrol = true;
         durum = durum + 1;
-        
+        animator.SetFloat("Side", 0f);
     }
 
     public IEnumerator SolaGitme(int tekrar)
     {
         while (kontrol)
         {
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            animator.SetFloat("Side", 2f);
             if (i < tekrar)
                 StartCoroutine(MovePlayer(Vector3.left));
             yield return new WaitForSeconds(0.5f);
@@ -103,13 +108,14 @@ public class PlayerController : MonoBehaviour
         i = 0;
         kontrol = true;
         durum = durum + 1;
-        
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
     public IEnumerator AsagiGitme(int tekrar)
     {
         while (kontrol)
         {
+            animator.SetBool("Front", true);
             if (i < tekrar)
                 StartCoroutine(MovePlayer(Vector3.down));
             yield return new WaitForSeconds(0.5f);
@@ -153,6 +159,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(AsagiGitme(inputgirdisi.TekrarSayisi_asagi));
         }
         yield return null;
+        
     }
 
 }

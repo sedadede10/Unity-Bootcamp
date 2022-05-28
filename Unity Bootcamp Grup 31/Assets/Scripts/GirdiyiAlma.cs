@@ -14,7 +14,7 @@ public class GirdiyiAlma : PlayerController
     public int TekrarSayisi_sola;
     public int TekrarSayisi_asagi;
 
-    public PlayerController player_controller;
+    
     void Start()
     {
         
