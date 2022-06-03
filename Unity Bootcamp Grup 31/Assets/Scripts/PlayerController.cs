@@ -147,7 +147,7 @@ public class PlayerController : MonoBehaviour
         }
         i = 0;
         kontrol = true;
-        durum = durum+1;
+        durum = 0;
         
     }
 
