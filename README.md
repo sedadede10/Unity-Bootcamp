@@ -105,3 +105,40 @@ Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplant�
 
 -**Diğer Notlar**:
 - Bölüm sırasında kodlama öğretirken bölüm sonunda bazı kısa animasyonlarla küresel sorunlar hakkında öğretici bilgilendirmeler yapılabilir.Bunun üzerine gelecek sprintte çalışılacaktır.
+
+---
+
+# Sprint 3
+
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 330 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçünce sprint'in kala 120 ile devam etmesi gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8750330/Daily.Scrum.docx)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://user-images.githubusercontent.com/79168222/169717027-bda94ee3-f48a-4daf-83f5-f4b9b6b3cdc7.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+- 
+  ![Screenshot 1](https://user-images.githubusercontent.com/79168222/169716165-a396633a-2079-4f18-a40a-f47e88d34d38.JPG)
+
+  ![Screenshot 2](https://user-images.githubusercontent.com/79168222/169706588-8a34eb56-620b-44a6-b19e-1b6ec18d53f9.png)
+  
+
+- **Sprint Review**: 
+Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplantılarla kararlaştırarak devam edeceklerdir.Oyuna yeni eklenilen bölümlerle ilgili ortak çalışma yürütülecek.2D isometric yerine 2D kuşbakışı-plansal olarak devam etmeye karar verilmiştir.
+
+- **Sprint Retrospective:**
+  - Oyunda eklenilmesi düşünülen yeni kısımlarla ilgili kodlama araştırılması yapılacak
+  - Developer ve tasarımcılarla birbirini bilgilendirerek devam etmeli
+  - Daha detaylı bir zaman yönetimi yapılmalı
+
+-**Diğer Notlar**:
+- Bölüm sırasında kodlama öğretirken bölüm sonunda bazı kısa animasyonlarla küresel sorunlar hakkında öğretici bilgilendirmeler yapılabilir.Bunun üzerine gelecek sprintte çalışılacaktır.
