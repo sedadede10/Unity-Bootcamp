@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     int durum = 0;
     public Animator animator;
     public GameObject ok;
+    public AudioSource ses;
     void Start()
     {
         
@@ -55,7 +56,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Front", false);
             if (i < tekrar)
+            {
                 StartCoroutine(MovePlayer(Vector3.up));
+                ses.Play();
+            }
+                
             yield return new WaitForSeconds(0.5f);
             i++;
             if(i>=tekrar)
@@ -76,7 +81,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("Side", 2f);
             if (i < tekrar)
-                StartCoroutine(MovePlayer(Vector3.right));           
+            {
+                StartCoroutine(MovePlayer(Vector3.right));
+                ses.Play();
+            }
+                           
             yield return new WaitForSeconds(0.5f);
             i++;
             if (i >= tekrar)
@@ -94,11 +103,14 @@ public class PlayerController : MonoBehaviour
     {
         while (kontrol)
         {
-            animator.SetFloat("Attack", 2f);
+            
             if (i < tekrar)
-                
+            {
+                animator.SetFloat("Attack", 2f);
+                Instantiate(ok, transform.position, Quaternion.Euler(0f, 0f, 90f));
+            }
             yield return new WaitForSeconds(1f);
-            Instantiate(ok, transform.position, Quaternion.Euler(0f, 0f, 90f));
+            
             i++;
             if (i >= tekrar)
             {
@@ -117,7 +129,10 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
             animator.SetFloat("Side", 2f);
             if (i < tekrar)
+            {
                 StartCoroutine(MovePlayer(Vector3.left));
+                ses.Play();
+            }
             yield return new WaitForSeconds(0.5f);
             i++;
             if (i >= tekrar)
@@ -137,7 +152,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Front", true);
             if (i < tekrar)
+            {
                 StartCoroutine(MovePlayer(Vector3.down));
+                ses.Play();
+            }
+                
             yield return new WaitForSeconds(0.5f);
             i++;
             if (i >= tekrar)

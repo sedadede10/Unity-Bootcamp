@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene3.unity
     guid: 7f4b5947bdf20724eb9dd9d077ca84b2
+  - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: c379f1b03166d2f419e3ed2dcdbea85e
+  - enabled: 1
+    path: Assets/Scenes/GirisEkrani.unity
+    guid: d338d061bff386b4c9d3601a3a662977
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: b8ceb56e9e099b049a54feeb6c4d95a2
   m_configObjects: {}
