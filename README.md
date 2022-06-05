@@ -114,31 +114,38 @@ Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplant�
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 330 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçünce sprint'in kala 120 ile devam etmesi gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 330 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçünce sprint'in kalan 120 puanın bitirilerek tamamlanmasına karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8750330/Daily.Scrum.docx)
-
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8840607/Daily.Scrum.docx)
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://user-images.githubusercontent.com/79168222/169717027-bda94ee3-f48a-4daf-83f5-f4b9b6b3cdc7.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - 
-  ![Screenshot 1](https://user-images.githubusercontent.com/79168222/169716165-a396633a-2079-4f18-a40a-f47e88d34d38.JPG)
+  ![Screenshot 1](https://user-images.githubusercontent.com/79168222/172067357-0997377b-4ae5-4746-b6e6-15928c689ac9.png)
 
-  ![Screenshot 2](https://user-images.githubusercontent.com/79168222/169706588-8a34eb56-620b-44a6-b19e-1b6ec18d53f9.png)
+  ![Screenshot 2](https://user-images.githubusercontent.com/79168222/172067374-764af90d-e8d6-49ad-8190-f13752f28247.png)
   
+  ![Screenshot 3](https://user-images.githubusercontent.com/79168222/172067409-c3d16e6d-baa0-45f0-bacf-77db29bc8d6a.png)
+  
+  ![Screenshot 4](https://user-images.githubusercontent.com/79168222/172067432-c225d677-522f-4b7a-a027-2f4d87c4bfaa.png)
+  
+  ![Screenshot 5](https://user-images.githubusercontent.com/79168222/172067452-53a3effb-70e7-4180-a13d-37bf8321c075.png)
+ 
 
 - **Sprint Review**: 
-Alınan kararlar: Oyunun bölümlerini tasarımcılar kendi aralarında toplantılarla kararlaştırarak devam edeceklerdir.Oyuna yeni eklenilen bölümlerle ilgili ortak çalışma yürütülecek.2D isometric yerine 2D kuşbakışı-plansal olarak devam etmeye karar verilmiştir.
+Alınan kararlar: Oyunun bölümlerini ilerleme zorluğuna göre tasarlandı.Eklenmesi gerekn script dosyaları araştırılarak ve hatalarak giderilerek eklendi.
 
 - **Sprint Retrospective:**
-  - Oyunda eklenilmesi düşünülen yeni kısımlarla ilgili kodlama araştırılması yapılacak
-  - Developer ve tasarımcılarla birbirini bilgilendirerek devam etmeli
-  - Daha detaylı bir zaman yönetimi yapılmalı
+  - Oyuna daha fazla karakter seçimi yapılabilir
+  - Oyuna daha fazla engel konulabilir
+  - İyi bir zaman planlaması yürütüldü
+  - Çocuklarla öğrenme yöntemleri üzerine daha fazla araştırma yapılarak geliştirilebilir
 
 -**Diğer Notlar**:
-- Bölüm sırasında kodlama öğretirken bölüm sonunda bazı kısa animasyonlarla küresel sorunlar hakkında öğretici bilgilendirmeler yapılabilir.Bunun üzerine gelecek sprintte çalışılacaktır.
+-Toplanarak aynı anda çalışmak projeyi daha hızlı gelişmesini sağlıyor
+
