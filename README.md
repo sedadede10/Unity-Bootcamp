@@ -122,7 +122,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/sedadede10/Unity-Bootcamp/files/8840607/Daily.Scrum.docx)
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://user-images.githubusercontent.com/79168222/169717027-bda94ee3-f48a-4daf-83f5-f4b9b6b3cdc7.png)
+![Backlog 1](https://user-images.githubusercontent.com/79168222/172068468-9ab8eb95-3878-49c9-88e7-4870bfbcb17e.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - 
