@@ -14,7 +14,7 @@ Grup 31
 + Utku Erdoğan
 
 ### Proje İsmi
---Game--
+--Coding With Robinhood--
 
 ### Proje Açıklaması
 Oyunumuz ile çocuklara günümüzde bilmesi ve öğrenmesi neredeyse ingilizce kadar zorunlu hala gelen kodlama eğitimini oyunlarla öğretebilmek.
