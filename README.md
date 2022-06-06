@@ -8,10 +8,10 @@ Grup 31
 # Projeyle İlgili Bilgiler
 
 ### Takım Elemanları
-+ Kerem Tutar
-+ Kevser Çalık
-+ Seda Dede
-+ Utku Erdoğan
++ Kerem Tutar/Game Developer-Product Owner
++ Kevser Çalık/Game Designer
++ Seda Dede/Scrum Master-Game Designer
++ Utku Erdoğan/Game Developer
 
 ### Proje İsmi
 --Coding With Robinhood--
