@@ -105,7 +105,7 @@ MonoBehaviour:
   inputgirdisi: {fileID: 3944752469249863005}
   animator: {fileID: 7389040123511874899}
   ok: {fileID: 1467840361042549658, guid: b6e399b86de774846a053f7e06b32f8c, type: 3}
-  ses: {fileID: 0}
+  ses: {fileID: 1507412282}
 --- !u!114 &3944752469249863005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +213,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

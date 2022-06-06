@@ -107,9 +107,10 @@ public class PlayerController : MonoBehaviour
             if (i < tekrar)
             {
                 animator.SetFloat("Attack", 2f);
+                yield return new WaitForSeconds(1f);
                 Instantiate(ok, transform.position, Quaternion.Euler(0f, 0f, 90f));
             }
-            yield return new WaitForSeconds(1f);
+            
             
             i++;
             if (i >= tekrar)
